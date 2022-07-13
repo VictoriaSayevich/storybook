@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -s public",
     "story-book": "start-storybook -p 9009 -s static"
   },
   "name": "storybook",
